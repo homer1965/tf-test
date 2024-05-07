@@ -18,6 +18,8 @@ terraform {
 
 
 
+
+
 }
 
 
@@ -43,3 +45,11 @@ resource "aws_instance" "tc_instance" {
     Name = "TC-triggered-instance"
   }
 }
+<<<<<<< HEAD
+=======
+
+resource "aws_iam_user" "helen" {
+  name = "helen"
+  
+}
+>>>>>>> 2bae43c (commit 2)
